@@ -16,7 +16,7 @@ fun main() {
       indexOfMin = i
     }
   }
-  var sumOfMoney:Int = 0
+  var sumOfMoney:Int = money[indexOfMin]
   for(i in 0..2){
     if(i != indexOfMin){
       sumOfMoney= sumOfMoney + (courses[i] * money[i])
